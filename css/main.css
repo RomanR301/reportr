@@ -748,6 +748,99 @@ input[type="number"] {
   padding: 45px 0;
 }
 
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dropdown {
+  z-index: 20;
+}
+
+.dropdown__item {
+  position: absolute;
+}
+
+.dropdown__item .language__item {
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transform: translate(0, 10px);
+          transform: translate(0, 10px);
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.dropdown__item .language__item span {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.dropdown__item .language__item:hover span {
+  color: #faaf40;
+}
+
+.dropdown .language__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown .language__item img {
+  width: 22px;
+  height: 22px;
+}
+
+.dropdown .language__item span {
+  margin-left: 8px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.dropdown.js-open .language__item {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.dropdown__trigger {
+  background: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.dropdown__trigger img {
+  width: 22px;
+  height: 22px;
+}
+
+.dropdown__trigger span {
+  margin: 0 4px 0 8px;
+  font-size: 20px;
+}
+
+.dropdown__trigger i {
+  background-image: url("../img/icon-chevron.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
 .hero-screen {
   height: 720px;
   position: relative;
@@ -926,7 +1019,7 @@ input[type="number"] {
 }
 
 .subscribe__form input {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 0px 80px -2px rgba(255, 255, 255, 0.3);
           box-shadow: 0px 0px 80px -2px rgba(255, 255, 255, 0.3);
   border-radius: 100px;
@@ -935,8 +1028,8 @@ input[type="number"] {
   border: none;
   padding: 0 32px;
   font-size: 20px;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: 2px solid #ffffff;
   outline: none;
   margin-right: 32px;
@@ -997,8 +1090,8 @@ input[type="number"] {
   border: none;
   font-size: 20px;
   font-weight: 700;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .subscribe__form button:hover {
@@ -1037,11 +1130,11 @@ input[type="number"] {
 }
 
 .footer-codeto span {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .footer-text {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .footer-swiss-made img {
