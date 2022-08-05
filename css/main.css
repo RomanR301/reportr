@@ -905,7 +905,7 @@ input[type="number"] {
 }
 
 .dropdown__trigger span {
-  margin: 0 4px 0 8px;
+  margin: 0 6px 0 4px;
   font-size: 20px;
 }
 
