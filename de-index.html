@@ -1,208 +1,218 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon/img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./img/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./img/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./imgfavicon//site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="./img/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reportr</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/img/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./imgfavicon//site.webmanifest" />
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reportr</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+
+  </div>
+  <header class="header">
+    <div class="container">
+      <a href="de-index.html" class="header-logo">
         <img src="./img/main-logo.svg" alt="reportr-logo" />
-        <div class="language dropdown">
-          <button class="language__item dropdown__trigger">
-            <img src="img/ch.svg" alt="Icon of Language" />
-            <span class="language__title"> DE </span>
-            <i class="icon-arrow-dropdown"></i>
-          </button>
-          <div class="language__list dropdown__item">
-            <a href="en-index.html" class="language__item">
-              <img src="img/en.svg" alt="Icon of Language" />
-              <span class="language__title"> EN </span>
-            </a>
+      </a>
+      <div class="language dropdown">
+        <button class="language__item dropdown__trigger">
+          <!-- <img src="img/ch.svg" alt="Icon of Language" /> -->
+          <!-- <span class="language__title"> DE </span> -->
+          <img src="./img/globe.svg" alt="">
+          <i class="icon-arrow-dropdown"></i>
+        </button>
+        <div class="language__list dropdown__item">
+          <a href="de-index.html" class="language__item">
+            <!-- <img src="img/en.svg" alt="Icon of Language" /> -->
+            <span class="language__title">DE</span>
+          </a>
+          <a href="en-index.html" class="language__item">
+            <!-- <img src="img/en.svg" alt="Icon of Language" /> -->
+            <span class="language__title">EN</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero-screen">
+      <div class="hero-screen__illustration">
+        <!-- <img src="./img/hero-screen-illustration.svg" alt="illustration" /> -->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12">
+            <div class="hero-screen__title">
+              Ihre Zeit ist <span>unser Ding</span>
+            </div>
+            <div class="hero-screen__subtitle">
+              <span>reportr</span> ist die digitale Version des traditionellen
+              Arbeitszeitrapports zur Vereinfachung und Optimierung der
+              Erfassung und Visierung der Arbeitszeit.
+            </div>
+            <div class="hero-screen__subtitle">
+              Erfasst in der intuitive bedienbaren Mobile App und schnell
+              kontrolliert und visiert im Webbrowser.
+            </div>
+          </div>
+          <div class="hero-screen__image">
+            <img src="./img/hero-image.png" alt="reportr app" />
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="hero-screen">
-        <div class="hero-screen__illustration">
-          <img src="./img/hero-screen-illustration.svg" alt="illustration" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12">
-              <div class="hero-screen__title">
-                Ihre Zeit ist <span>unser Ding</span>
+    </section>
+    <section class="process">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="process-item">
+              <div class="process-item__image item-1">
+                <img src="./img/problem.svg" alt="problem" />
               </div>
-              <div class="hero-screen__subtitle">
-                <span>reportr</span> ist die digitale Version des traditionellen
-                Arbeitszeitrapports zur Vereinfachung und Optimierung der
-                Erfassung und Visierung der Arbeitszeit.
+              <div class="process-item__title">Das Problem</div>
+              <div class="process-item__description">
+                Der traditionelle Wochenrapport als Ganzes durchläuft unnötig
+                viele Stellen und erhöht die Chancen auf Rückläufe.
               </div>
-              <div class="hero-screen__subtitle">
-                Erfasst in der intuitive bedienbaren Mobile App und schnell
-                kontrolliert und visiert im Webbrowser.
-              </div>
-            </div>
-            <div class="hero-screen__image">
-              <img src="./img/hero-image.png" alt="reportr app" />
             </div>
           </div>
-        </div>
-      </section>
-      <section class="process">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-xs-12">
-              <div class="process-item">
-                <div class="process-item__image item-1">
-                  <img src="./img/problem.svg" alt="problem" />
-                </div>
-                <div class="process-item__title">Das Problem</div>
-                <div class="process-item__description">
-                  Der traditionelle Wochenrapport als Ganzes durchläuft unnötig
-                  viele Stellen und erhöht die Chancen auf Rückläufe.
-                </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="process-item">
+              <div class="process-item__image item-2">
+                <img src="./img/solution.svg" alt="solution" />
+              </div>
+              <div class="process-item__title">Die Lösung</div>
+              <div class="process-item__description">
+                Intuitive Mobile App für schnelle Rapportierung der Zeit.
+                Optimierung und Vereinfachung von veralteten Prozessen durch
+                Aufteilung des Wochenrapports Nahtlose Einbindung der
+                Projektleiter zur Kontrolle der rapportierten Projektstunden
               </div>
             </div>
-            <div class="col-md-4 col-xs-12">
-              <div class="process-item">
-                <div class="process-item__image item-2">
-                  <img src="./img/solution.svg" alt="solution" />
-                </div>
-                <div class="process-item__title">Die Lösung</div>
-                <div class="process-item__description">
-                  Intuitive Mobile App für schnelle Rapportierung der Zeit.
-                  Optimierung und Vereinfachung von veralteten Prozessen durch
-                  Aufteilung des Wochenrapports Nahtlose Einbindung der
-                  Projektleiter zur Kontrolle der rapportierten Projektstunden
-                </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="process-item">
+              <div class="process-item__image item-3">
+                <img src="./img/method.svg" alt="method" />
               </div>
-            </div>
-            <div class="col-md-4 col-xs-12">
-              <div class="process-item">
-                <div class="process-item__image item-3">
-                  <img src="./img/method.svg" alt="method" />
-                </div>
-                <div class="process-item__title">Der Ansatz</div>
-                <div class="process-item__description">
-                  reportr wird mit dem Ansatz “Mobile-first” entwickelt. So
-                  stellen wir sicher, dass der Mitarbeiter so effizient wie
-                  möglich seine Zeit erfassen kann.
-                </div>
+              <div class="process-item__title">Der Ansatz</div>
+              <div class="process-item__description">
+                reportr wird mit dem Ansatz “Mobile-first” entwickelt. So
+                stellen wir sicher, dass der Mitarbeiter so effizient wie
+                möglich seine Zeit erfassen kann.
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="subscribe">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-xs-12">
-              <div class="subscribe-box">
-                <div class="subscribe__text">
-                  <span>reportr</span> wird zur Zeit noch entwickelt und ist
-                  noch nicht verfügbar. Wenn Sie über Updates und die
-                  Veröffentlichung von reportr informiert werden möchten, dann
-                  tragen Sie sich doch ein. Wir freuen uns auf Sie!
-                </div>
-                <div class="subscribe__form">
-                  <form action="">
-                    <input
-                      type="email"
-                      name="subscribe-email"
-                      placeholder="Email"
-                    />
-                    <button type="submit">SEND</button>
-                  </form>
-                </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <div class="subscribe-box">
+              <div class="subscribe__text">
+                <span>reportr</span> wird zur Zeit noch entwickelt und ist
+                noch nicht verfügbar. Wenn Sie über Updates und die
+                Veröffentlichung von reportr informiert werden möchten, dann
+                tragen Sie sich doch ein. Wir freuen uns auf Sie!
+              </div>
+              <div class="subscribe__form">
+                <form action="">
+                  <input type="email" name="subscribe-email" placeholder="Email" />
+                  <button type="submit">SEND</button>
+                </form>
               </div>
             </div>
-            <div class="col-md-4 col-xs-12 subscribe-illustration">
-              <img src="./img/footer-illustration.svg" alt="illustration" />
-            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 subscribe-illustration">
+            <img src="./img/footer-illustration.svg" alt="illustration" />
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
       <div class="container">
         <a class="footer-codeto" href="https://codeto.ch/">
           <span>by</span>
           <img src="./img/codeto-logo.svg" alt="codeto-logo" />
           <span>codeto</span>
         </a>
-        <div class="footer-text">2020-2022 codeto GmbH</div>
         <div class="footer-swiss-made">
-          <img
-            src="./img/swiss-made-software.svg"
-            alt="swiss-made-software-logo"
-          />
+          <img src="./img/swiss-made-software.svg" alt="swiss-made-software-logo" />
         </div>
       </div>
-    </footer>
-  </body>
-  <script>
-    function closeOpenNavs() {
-      var openDrops = document.querySelectorAll(".dropdown__trigger");
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-menu">
+          <a href="#" class="footer__link">
+            Impressum
+          </a>
+          <a href="#" class="footer__link">
+            Datenschutzerklärung
+          </a>
+          <a href="#" class="footer__link">
+            hi@codeto.ch
+          </a>
+        </div>
+        <div class="footer-copyright">2020-2022 codeto GmbH</div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function closeOpenNavs() {
+    var openDrops = document.querySelectorAll(".dropdown__trigger");
 
-      for (var i = 0; i < openDrops.length; i++) {
-        var openDropdown = openDrops[i];
+    for (var i = 0; i < openDrops.length; i++) {
+      var openDropdown = openDrops[i];
 
-        if (openDropdown.parentElement.classList.contains("js-open")) {
-          openDropdown.parentElement.classList.remove("js-open");
-        }
+      if (openDropdown.parentElement.classList.contains("js-open")) {
+        openDropdown.parentElement.classList.remove("js-open");
       }
     }
-    document.addEventListener(
-      "click",
-      function (event) {
-        if (!event.target.closest(".dropdown__trigger")) {
-          closeOpenNavs();
-        } else if (
-          event.target.closest(".dropdown__trigger") &&
-          event.target.parentElement.closest(".js-open")
-        ) {
-          event.target
-            .closest(".dropdown__trigger")
-            .parentElement.classList.remove("js-open");
-        } else if (event.target.closest(".dropdown__trigger")) {
-          closeOpenNavs();
-          event.target
-            .closest(".dropdown__trigger")
-            .parentElement.classList.add("js-open");
-        }
-      },
-      false
-    );
-  </script>
+  }
+  document.addEventListener(
+    "click",
+    function (event) {
+      if (!event.target.closest(".dropdown__trigger")) {
+        closeOpenNavs();
+      } else if (
+        event.target.closest(".dropdown__trigger") &&
+        event.target.parentElement.closest(".js-open")
+      ) {
+        event.target
+          .closest(".dropdown__trigger")
+          .parentElement.classList.remove("js-open");
+      } else if (event.target.closest(".dropdown__trigger")) {
+        closeOpenNavs();
+        event.target
+          .closest(".dropdown__trigger")
+          .parentElement.classList.add("js-open");
+      }
+    },
+    false
+  );
+</script>
+
 </html>
