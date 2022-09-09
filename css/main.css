@@ -759,7 +759,6 @@ input[type="number"] {
           justify-content: space-between;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   max-width: 1200px;
 }
@@ -809,14 +808,12 @@ input[type="number"] {
   margin-bottom: 16px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .dropdown__item .language__item span {
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -856,10 +853,8 @@ input[type="number"] {
   top: 45px;
   right: 0;
   -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   -webkit-transform: translate(0, 10px);
-      -ms-transform: translate(0, 10px);
           transform: translate(0, 10px);
   position: absolute;
   opacity: 0;
@@ -870,7 +865,6 @@ input[type="number"] {
 
 .dropdown.js-open i {
   -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
@@ -878,7 +872,6 @@ input[type="number"] {
   visibility: visible;
   opacity: 1;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
           transform: translate(0, 0);
 }
 
@@ -896,7 +889,6 @@ input[type="number"] {
 
 .dropdown__trigger i {
   -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -1030,8 +1022,6 @@ input[type="number"] {
 
 .process {
   padding: 80px 0;
-  background: -webkit-radial-gradient(50% 50% at 50% 50%, #151c6a 0%, rgba(21, 28, 106, 0.869792) 13.54%, rgba(21, 28, 106, 0) 100%);
-  background: -o-radial-gradient(50% 50% at 50% 50%, #151c6a 0%, rgba(21, 28, 106, 0.869792) 13.54%, rgba(21, 28, 106, 0) 100%);
   background: radial-gradient(50% 50% at 50% 50%, #151c6a 0%, rgba(21, 28, 106, 0.869792) 13.54%, rgba(21, 28, 106, 0) 100%);
 }
 
@@ -1080,6 +1070,10 @@ input[type="number"] {
   opacity: 0.8;
 }
 
+.process-item__description span {
+  color: #faaf40;
+}
+
 .subscribe {
   padding: 80px 0;
 }
@@ -1117,7 +1111,6 @@ input[type="number"] {
   padding: 0 32px;
   font-size: 20px;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border: 2px solid #ffffff;
   outline: none;
@@ -1180,7 +1173,6 @@ input[type="number"] {
   font-size: 20px;
   font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1241,7 +1233,6 @@ input[type="number"] {
   width: -moz-fit-content;
   width: fit-content;
   -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -1281,7 +1272,6 @@ input[type="number"] {
 .footer-codeto span {
   opacity: 0.7;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1556,7 +1546,6 @@ input[type="number"] {
   left: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
 
@@ -1585,7 +1574,6 @@ input[type="number"] {
   left: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
 /*# sourceMappingURL=main.css.map */

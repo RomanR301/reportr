@@ -528,6 +528,9 @@ input[type="number"] {
   }
   &__description {
     opacity: 0.8;
+    span {
+      color: #faaf40;
+    }
   }
 }
 
